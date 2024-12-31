@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 void	ft_putchar(char c)
 {
@@ -36,7 +35,7 @@ char	*dectobin(int nbr)
 
 int main()
 {
-    char *ptr = dectobin(100);
+    char *ptr = dectobin(111111100);
     
     while (*ptr)
     {
